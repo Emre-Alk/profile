@@ -1,0 +1,91 @@
+@import url("https://use.fontawesome.com/releases/v6.1.2/css/all.css");
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+
+
+body{
+  background-color: rgb(250, 250, 230) ;
+  font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif ;
+  color: black ;
+  font-size: 10px ;
+}
+
+div{
+  width: 800px ;
+  padding: 20px ;
+  margin: 10px auto ;
+  text-align: left ;
+  border: medium solid rgba(219, 153, 90, .2);
+  box-shadow: 0 0 5px rgba(219, 153, 90, .2);
+  border-radius: 8px;
+}
+
+h1{
+  font-weight: 400;
+  text-align: center ;
+  font-size: 38px;
+}
+
+h2{
+  font-weight: 300;
+  text-align: left ;
+  font-size: 18px;
+}
+
+a{
+  text-decoration: none ;
+  font-size: 20px;
+}
+
+li{
+  list-style-type: none ;
+}
+
+a:hover{
+  background-color: #DB995A ;
+  border-radius: 5px ;
+}
+
+img{
+  width: 250px ;
+}
+
+.img-circle{
+  border-radius: 50% ;
+  box-shadow: 2px 2px white;
+}
+
+#propic-thickblack{
+  border: thick solid #F6FEDB;
+}
+
+.presentation{
+  display: flex ;
+}
+
+#box-img{
+
+width: auto;
+border: none;
+box-shadow: none ;
+}
+
+#box-text{
+  font-size: 15px ;
+  width: auto;
+  border: none;
+box-shadow: none ;
+}
+
+#box-link{
+  width: fit-content;
+  display: relative ;
+  margin-top: 70px;
+  border: none;
+box-shadow: none ;
+}
+
+#link-whitebox{
+  border: none;
+  box-shadow: none ;
+  display: inline;
+}
